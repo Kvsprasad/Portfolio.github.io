@@ -2182,10 +2182,14 @@ body.lightbox-open {
 
 span.lightboxclsbtn {
   position: fixed;
-  top: 1%;
-  right: 4%;
+  top: 11%;
+  right: 2%;
   color: #fff;
   font-size: 33px;
   cursor: pointer;
 }
+
+
+
+
 /* end of custom lightbox */

@@ -8507,12 +8507,12 @@ footer .footer-nav a {
         display: block;
         width: 56px;
         height: 56px;
-        background-image: url("../themes/uda/assets/img/nav/menu.svg");
+        background-image: url("./Asset/menu.svg");
         transition: all 0.1s
     }
 
     header .header-icons .header-menu.opened {
-        background-image: url("../themes/uda/assets/img/nav/close-menu.svg");
+        background-image: url("./Asset/menu.svg");
         transition: all 0.1s
     }
 
@@ -10512,11 +10512,11 @@ body {
 }
 
 .portfolio-page-header h1 {
-    margin-top: 152px;
+    margin-top: 70px;
     margin-bottom: 54px;
     display: flex;
     flex-wrap: wrap;
-    padding-top:80px;
+    padding-top:140px;
 }
 
 
@@ -13308,12 +13308,13 @@ body {
 }
 
 .why-us-page-header h1 {
-    font-family: "Urbanist",sans-serif;
-    margin-top: 332px;
-    margin-bottom: 54px;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 70px;
+    margin-bottom: 0px;
     font-size: 68px;
     line-height: 88px;
-    font-weight: 200
+    font-weight: 200;
+    padding-top: 100px;
 }
 
 .why-us-page-header p {
@@ -14006,10 +14007,14 @@ body {
         bottom:-90px
     }
 }
-
+@media screen and (max-width: 380px) {
+    .why-us-page-header h1 {
+        margin-top:40px;
+    }
+}
 @media screen and (max-width: 656px) {
     .why-us-page-header h1 {
-        margin-top:130px
+        margin-top:80px
     }
 
     .uda-unique {
@@ -14029,12 +14034,12 @@ body {
 
     .uda-unique .items .item .image {
         position: absolute;
-        top: -50px;
+        top: 13px;
         right: -50px
     }
 
     .uda-unique .items .item .image img {
-        width: 180px
+        width: 160px
     }
 
     .uda-unique .items .item h4 {
@@ -14047,8 +14052,8 @@ body {
 
     .uda-unique .items .item p {
         margin-top: 16px;
-        font-size: 18px;
-        line-height: 27px;
+        font-size: 14px;
+        line-height: 22px;
         font-weight: 300
     }
 
@@ -14324,11 +14329,11 @@ body {
 
 @media screen and (max-width: 380px) {
     .uda-unique .items .item .image {
-        right:-60px
+        right:10px
     }
 
     .uda-unique .items .item h4 {
-        max-width: 75%
+        max-width:42%
     }
 }
 
@@ -14340,7 +14345,7 @@ body {
 
 @media screen and (max-width: 360px) {
     .uda-unique .items .item h4 {
-        font-size:18px;
+        font-size:16px;
         line-height: 22px;
         height: 70px
     }
@@ -23491,4 +23496,154 @@ p::before {
 .footer-social .own img.lazy.error {
     margin: 0px;
 }
+/* about me section */
+.bank-promo-diagonal {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 80px 0;
+    
+    
+  }
+  
+  .text-right-diagonal {
+    position: absolute;
+    top: -20px;
+    left: 390px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #001233;
+    width: 650px ;
+    line-height: 32px;
+  }
+  
+  .ellipse-image-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 150px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    background: #f7f7f7;
+  }
+  
+  .ellipse-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-left-diagonal {
+    position: absolute;
+    bottom: 74px;
+    right: 70px;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 30px;
+    color: #001233;
+    width: 640px;
+  
+}
 
+@media screen and (max-width: 380px){
+.bank-promo-diagonal {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    margin: 80px 0;
+   
+    
+  }
+  
+  .text-right-diagonal {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #001233;
+    width: 299px;
+    line-height: 22px;
+    text-align: center;
+    
+  }
+  
+  .ellipse-image-wrapper {
+    position: absolute;
+        top: 24%;
+        left: 48%;
+        width: 200px;
+        height: 291px;
+        transform: translate(-50%, -50%);
+        border-radius: 50% / 40;
+        overflow: hidden;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        background: #f7f7f7;
+  }
+  
+  .ellipse-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-left-diagonal {
+    position: absolute;
+    bottom: 74px;
+    right: 70px;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 30px;
+    color: #001233;
+    width: 640px;
+  
+}
+h1.slideFromTopHeader.delay-300 {
+    margin-top: 114px;
+}
+
+
+
+}
+
+
+.bgabt {
+    background-image: url('./Asset/bgabt.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    width: 100%;
+}
+  
+.backgroundimg {
+    background-image: url('./Asset/bgabt.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 64px;
+}
+
+.bgabt p.p2left.slideFromTopHeader.delay-300 {
+    padding-bottom: 80px;
+}
+
+.container.portfolio-page-header.cmng {
+    height: 60vh;
+}
+
+.uda-unique .items .item.cmp h4 {
+    font-size: 36px;
+}
+
+p.colorshade {
+    font-size: 24px !important;
+}
+
+.item.priniciples.cmp {
+    height: 630px;
+}
+/* about me close */

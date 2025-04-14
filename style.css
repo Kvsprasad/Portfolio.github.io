@@ -23520,7 +23520,7 @@ p::before {
   .ellipse-image-wrapper {
     position: absolute;
     top: 20%;
-    left: 68%;
+    right: 233vh;
     width: 200px;
     height: 200px;
     transform: translate(-50%, -50%);

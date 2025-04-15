@@ -4684,7 +4684,7 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    font-size: 68px;
+    font-size: 65px;
     color: black;
     line-height: 88px;
     font-weight: 200;
@@ -23645,5 +23645,29 @@ p.colorshade {
 
 .item.priniciples.cmp {
     height: 630px;
+}
+
+.hide{
+    visibility: hidden ;
+}
+
+.self-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+.container.portfolio-page-header.para {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.para p.p2left.slideFromTopHeader.delay-300 {
+    padding-bottom: 0px;
+}
+
+.para {
+    padding-bottom: 40px;
+
 }
 /* about me close */
